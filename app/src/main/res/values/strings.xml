@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Usuarios</string>
+    <string name="action_settings">Settings</string>
+    <string name="hint_name">Nombre completo</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_telephone">Teléfono</string>
+    <string name="hint_descripcion_contacto">Descripción Contacto</string>
+    <string name="btn_sign_up">Siguiente</string>
+    <string name="btn_edit_data">Editar datos</string>
+
+    <string name="err_msg_name">Enter your full name</string>
+    <string name="err_msg_email">Enter valid email address</string>
+    <string name="err_msg_descripcion_contacto">Descripción Contacto</string>
+    <string name="name_second_activity">Confirmar Datos</string>
+
+
+</resources>

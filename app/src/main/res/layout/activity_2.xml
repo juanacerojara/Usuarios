@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:text="Birthday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewBirthday"
+            android:layout_below="@+id/textViewName"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="5dp"
+
+            />
+        <TextView
+            android:text="Telephone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewTelephone"
+            android:layout_below="@+id/textViewBirthday"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="5dp"
+
+            />
+        <TextView
+            android:text="Mail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewMail"
+            android:layout_below="@+id/textViewTelephone"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="5dp"
+
+            />
+        <TextView
+            android:text="Description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewDescription"
+            android:layout_below="@+id/textViewMail"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="5dp"
+            />
+
+        <TextView
+            android:text="@string/name_second_activity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/juan"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="22dp" />
+
+        <TextView
+            android:text="Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewName"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/juan"
+            android:layout_alignLeft="@+id/textViewBirthday"
+            android:layout_alignStart="@+id/textViewBirthday" />
+    </RelativeLayout>
+    <Button android:id="@+id/btn_return_data"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_edit_data"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="80dp"
+        android:textColor="@android:color/white"/>
+</LinearLayout>
